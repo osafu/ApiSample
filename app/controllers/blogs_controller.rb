@@ -3,4 +3,10 @@ class BlogsController < ApplicationController
     @blogs = Blog.all
     render json: @blogs
   end
+
+  def show
+    @blogs = Blog.all
+    render json: @blogs
+  end
+
 end
